@@ -59,5 +59,4 @@ public class UserController {
         }
         return new ResponseEntity<>("Hi " + authentication.getName() + greeting, HttpStatus.OK);
     }
-
 }
